@@ -24,6 +24,26 @@ public class Menuu extends javax.swing.JFrame {
         hot3.setEnabled(false);
         hot4.setEnabled(false);
         hot5.setEnabled(false);
+        Piz1.setEnabled(false);
+        Piz2.setEnabled(false);
+        Piz3.setEnabled(false);
+        Piz4.setEnabled(false);
+        Piz5.setEnabled(false);
+        Ali1.setEnabled(false);
+        Ali2.setEnabled(false);
+        Ali3.setEnabled(false);
+        Ali4.setEnabled(false);
+        Ali5.setEnabled(false);
+        Bebi1.setEnabled(false);
+        Bebi2.setEnabled(false);
+        Bebi3.setEnabled(false);
+        Bebi4.setEnabled(false);
+        Bebi5.setEnabled(false);
+        Postre1.setEnabled(false);
+        Postre2.setEnabled(false);
+        Postre3.setEnabled(false);
+        Postre4.setEnabled(false);
+        Postre5.setEnabled(false);
 
     }
 
@@ -71,9 +91,69 @@ public class Menuu extends javax.swing.JFrame {
         hot2 = new javax.swing.JTextField();
         hot1 = new javax.swing.JTextField();
         jPanel6 = new javax.swing.JPanel();
+        P1 = new javax.swing.JCheckBox();
+        jLabel11 = new javax.swing.JLabel();
+        P2 = new javax.swing.JCheckBox();
+        jLabel12 = new javax.swing.JLabel();
+        P3 = new javax.swing.JCheckBox();
+        jLabel13 = new javax.swing.JLabel();
+        P4 = new javax.swing.JCheckBox();
+        jLabel14 = new javax.swing.JLabel();
+        P5 = new javax.swing.JCheckBox();
+        jLabel15 = new javax.swing.JLabel();
+        Piz1 = new javax.swing.JTextField();
+        Piz2 = new javax.swing.JTextField();
+        Piz3 = new javax.swing.JTextField();
+        Piz4 = new javax.swing.JTextField();
+        Piz5 = new javax.swing.JTextField();
         jPanel7 = new javax.swing.JPanel();
+        A1 = new javax.swing.JCheckBox();
+        jLabel16 = new javax.swing.JLabel();
+        A2 = new javax.swing.JCheckBox();
+        jLabel17 = new javax.swing.JLabel();
+        A3 = new javax.swing.JCheckBox();
+        jLabel18 = new javax.swing.JLabel();
+        A4 = new javax.swing.JCheckBox();
+        jLabel19 = new javax.swing.JLabel();
+        A5 = new javax.swing.JCheckBox();
+        jLabel20 = new javax.swing.JLabel();
+        Ali1 = new javax.swing.JTextField();
+        Ali2 = new javax.swing.JTextField();
+        Ali3 = new javax.swing.JTextField();
+        Ali4 = new javax.swing.JTextField();
+        Ali5 = new javax.swing.JTextField();
         jPanel3 = new javax.swing.JPanel();
+        B1 = new javax.swing.JCheckBox();
+        jLabel21 = new javax.swing.JLabel();
+        B2 = new javax.swing.JCheckBox();
+        jLabel22 = new javax.swing.JLabel();
+        B3 = new javax.swing.JCheckBox();
+        jLabel23 = new javax.swing.JLabel();
+        B4 = new javax.swing.JCheckBox();
+        B5 = new javax.swing.JCheckBox();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
+        Bebi1 = new javax.swing.JTextField();
+        Bebi2 = new javax.swing.JTextField();
+        Bebi3 = new javax.swing.JTextField();
+        Bebi4 = new javax.swing.JTextField();
+        Bebi5 = new javax.swing.JTextField();
         jPanel8 = new javax.swing.JPanel();
+        jLabel26 = new javax.swing.JLabel();
+        Ps1 = new javax.swing.JCheckBox();
+        Ps2 = new javax.swing.JCheckBox();
+        jLabel27 = new javax.swing.JLabel();
+        Ps3 = new javax.swing.JCheckBox();
+        jLabel28 = new javax.swing.JLabel();
+        Ps4 = new javax.swing.JCheckBox();
+        jLabel29 = new javax.swing.JLabel();
+        Ps5 = new javax.swing.JCheckBox();
+        jLabel30 = new javax.swing.JLabel();
+        Postre1 = new javax.swing.JTextField();
+        Postre2 = new javax.swing.JTextField();
+        Postre3 = new javax.swing.JTextField();
+        Postre4 = new javax.swing.JTextField();
+        Postre5 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -256,7 +336,7 @@ public class Menuu extends javax.swing.JFrame {
                         .addComponent(Hambur5, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel5)
-                .addContainerGap(37, Short.MAX_VALUE))
+                .addContainerGap(43, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Hamburguesas", jPanel4);
@@ -392,7 +472,7 @@ public class Menuu extends javax.swing.JFrame {
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
-                .addContainerGap(20, Short.MAX_VALUE)
+                .addContainerGap(26, Short.MAX_VALUE)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(ho1)
                     .addComponent(hot1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -427,54 +507,626 @@ public class Menuu extends javax.swing.JFrame {
 
         jTabbedPane2.addTab("Hot Dogs", jPanel5);
 
+        P1.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        P1.setText("Pizza Margarita ");
+        P1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P1ActionPerformed(evt);
+            }
+        });
+
+        jLabel11.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel11.setText("Salsa de tomate, queso mozzarella, albahaca");
+
+        P2.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        P2.setText("Pizza Pepperoni ");
+        P2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P2ActionPerformed(evt);
+            }
+        });
+
+        jLabel12.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel12.setText("Salsa, queso, pepperoni");
+
+        P3.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        P3.setText("Pizza Hawaiana ");
+        P3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P3ActionPerformed(evt);
+            }
+        });
+
+        jLabel13.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel13.setText("Jamón, piña, queso");
+
+        P4.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        P4.setText("Pizza de Carnes Frías ");
+        P4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P4ActionPerformed(evt);
+            }
+        });
+
+        jLabel14.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel14.setText("Chorizo, jamón, salami, queso");
+
+        P5.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        P5.setText("Pizza Vegetariana ");
+        P5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P5ActionPerformed(evt);
+            }
+        });
+
+        jLabel15.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel15.setText("Champiñones, pimientos, cebolla, aceitunas, queso");
+
+        Piz1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Piz1KeyTyped(evt);
+            }
+        });
+
+        Piz2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Piz2KeyTyped(evt);
+            }
+        });
+
+        Piz3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Piz3KeyTyped(evt);
+            }
+        });
+
+        Piz4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Piz4KeyTyped(evt);
+            }
+        });
+
+        Piz5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Piz5KeyTyped(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 659, Short.MAX_VALUE)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(P1)
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(P2, javax.swing.GroupLayout.PREFERRED_SIZE, 168, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(P3)
+                            .addComponent(P4)
+                            .addComponent(P5)
+                            .addGroup(jPanel6Layout.createSequentialGroup()
+                                .addGap(21, 21, 21)
+                                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel12)
+                                    .addComponent(jLabel13)
+                                    .addComponent(jLabel14)
+                                    .addComponent(jLabel15)))))
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addGap(21, 21, 21)
+                        .addComponent(jLabel11)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 242, Short.MAX_VALUE)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Piz1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Piz2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Piz3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Piz4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Piz5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(41, 41, 41))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 389, Short.MAX_VALUE)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(P1)
+                    .addComponent(Piz1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel11)
+                .addGap(20, 20, 20)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(P2)
+                    .addComponent(Piz2, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(4, 4, 4)
+                .addComponent(jLabel12)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(P3)
+                    .addComponent(Piz3, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(2, 2, 2)
+                .addComponent(jLabel13)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(P4)
+                    .addComponent(Piz4, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel14)
+                .addGap(26, 26, 26)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(P5)
+                    .addComponent(Piz5, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel15)
+                .addContainerGap(34, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Pizzas", jPanel6);
+
+        A1.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        A1.setText("Buffalo Tradicional ");
+        A1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                A1ActionPerformed(evt);
+            }
+        });
+
+        jLabel16.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel16.setText("Alitas fritas, salsa picante estilo buffalo");
+
+        A2.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        A2.setText("Alitas BBQ ");
+        A2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                A2ActionPerformed(evt);
+            }
+        });
+
+        jLabel17.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel17.setText("Alitas con salsa BBQ dulce");
+
+        A3.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        A3.setText("Alitas Mango Habanero ");
+        A3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                A3ActionPerformed(evt);
+            }
+        });
+
+        jLabel18.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel18.setText("Salsa de mango con habanero");
+
+        A4.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        A4.setText("Alitas Parmesano y Ajo ");
+        A4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                A4ActionPerformed(evt);
+            }
+        });
+
+        jLabel19.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel19.setText("Salsa de mantequilla, ajo y queso parmesano");
+
+        A5.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        A5.setText("Alitas Lemon Pepper ");
+        A5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                A5ActionPerformed(evt);
+            }
+        });
+
+        jLabel20.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel20.setText("Limón, pimienta, mantequilla");
+
+        Ali1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Ali1KeyTyped(evt);
+            }
+        });
+
+        Ali2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Ali2KeyTyped(evt);
+            }
+        });
+
+        Ali3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Ali3KeyTyped(evt);
+            }
+        });
+
+        Ali4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Ali4KeyTyped(evt);
+            }
+        });
+
+        Ali5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Ali5KeyTyped(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 659, Short.MAX_VALUE)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(A1)
+                    .addGroup(jPanel7Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(A2, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(A3)
+                            .addComponent(A4)
+                            .addComponent(A5)
+                            .addGroup(jPanel7Layout.createSequentialGroup()
+                                .addGap(21, 21, 21)
+                                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel17)
+                                    .addComponent(jLabel18)
+                                    .addComponent(jLabel19)
+                                    .addComponent(jLabel20)))))
+                    .addGroup(jPanel7Layout.createSequentialGroup()
+                        .addGap(21, 21, 21)
+                        .addComponent(jLabel16)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 275, Short.MAX_VALUE)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Ali1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Ali2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Ali3, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Ali4, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Ali5, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(41, 41, 41))
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 389, Short.MAX_VALUE)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(A1)
+                    .addComponent(Ali1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel16)
+                .addGap(20, 20, 20)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(A2)
+                    .addComponent(Ali2, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(4, 4, 4)
+                .addComponent(jLabel17)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(A3)
+                    .addComponent(Ali3, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(2, 2, 2)
+                .addComponent(jLabel18)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(A4)
+                    .addComponent(Ali4, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel19)
+                .addGap(26, 26, 26)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(A5)
+                    .addComponent(Ali5, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel20)
+                .addContainerGap(34, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Alitas", jPanel7);
+
+        B1.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        B1.setText("Refresco en lata ");
+        B1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                B1ActionPerformed(evt);
+            }
+        });
+
+        jLabel21.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel21.setText("Ejemplo: Coca-Cola, Sprite, Fanta");
+
+        B2.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        B2.setText("Limonada Natural ");
+        B2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                B2ActionPerformed(evt);
+            }
+        });
+
+        jLabel22.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel22.setText("Limón, agua, azúcar, hielo");
+
+        B3.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        B3.setText("Agua de Horchata ");
+        B3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                B3ActionPerformed(evt);
+            }
+        });
+
+        jLabel23.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel23.setText("Arroz, leche, vainilla, canela, azúcar");
+
+        B4.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        B4.setText("Smoothie de Fresa y Plátano ");
+        B4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                B4ActionPerformed(evt);
+            }
+        });
+
+        B5.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        B5.setText("Té Helado Natural ");
+        B5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                B5ActionPerformed(evt);
+            }
+        });
+
+        jLabel24.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel24.setText("Té negro, limón, azúcar");
+
+        jLabel25.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel25.setText("Fresa, plátano, yogur natural, hielos");
+
+        Bebi1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Bebi1KeyTyped(evt);
+            }
+        });
+
+        Bebi2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Bebi2KeyTyped(evt);
+            }
+        });
+
+        Bebi3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Bebi3KeyTyped(evt);
+            }
+        });
+
+        Bebi4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Bebi4KeyTyped(evt);
+            }
+        });
+
+        Bebi5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Bebi5KeyTyped(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 659, Short.MAX_VALUE)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(B1)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(B2, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(B3)
+                            .addComponent(B4)
+                            .addComponent(B5)
+                            .addGroup(jPanel3Layout.createSequentialGroup()
+                                .addGap(21, 21, 21)
+                                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel22)
+                                    .addComponent(jLabel23)
+                                    .addComponent(jLabel25)
+                                    .addComponent(jLabel24)))))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(21, 21, 21)
+                        .addComponent(jLabel21)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 290, Short.MAX_VALUE)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Bebi1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Bebi2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Bebi3, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Bebi4, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Bebi5, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(41, 41, 41))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 389, Short.MAX_VALUE)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(B1)
+                    .addComponent(Bebi1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel21)
+                .addGap(20, 20, 20)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(B2)
+                    .addComponent(Bebi2, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(4, 4, 4)
+                .addComponent(jLabel22)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(B3)
+                    .addComponent(Bebi3, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(2, 2, 2)
+                .addComponent(jLabel23)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(B4)
+                    .addComponent(Bebi4, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel25)
+                .addGap(26, 26, 26)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(B5)
+                    .addComponent(Bebi5, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel24)
+                .addContainerGap(34, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Bebidas", jPanel3);
+
+        jLabel26.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel26.setText("Chocolate, harina, mantequilla, nuez");
+
+        Ps1.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        Ps1.setText("Brownie de Chocolate ");
+        Ps1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Ps1ActionPerformed(evt);
+            }
+        });
+
+        Ps2.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        Ps2.setText("Pastel de Tres Leches ");
+        Ps2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Ps2ActionPerformed(evt);
+            }
+        });
+
+        jLabel27.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel27.setText("Bizcocho, leche condensada, evaporada y crema, chantilly");
+
+        Ps3.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        Ps3.setText("Galletas de Avena y Pasas ");
+        Ps3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Ps3ActionPerformed(evt);
+            }
+        });
+
+        jLabel28.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel28.setText("Avena, harina, pasas, azúcar morena");
+
+        Ps4.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        Ps4.setText("Pay de Limón");
+        Ps4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Ps4ActionPerformed(evt);
+            }
+        });
+
+        jLabel29.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel29.setText("Base de galleta, crema de limón, leche condensada, limón");
+
+        Ps5.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        Ps5.setText("Helado Artesanal ");
+        Ps5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Ps5ActionPerformed(evt);
+            }
+        });
+
+        jLabel30.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel30.setText("Ejemplo: Vainilla, chocolate, mango");
+
+        Postre1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Postre1KeyTyped(evt);
+            }
+        });
+
+        Postre2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Postre2KeyTyped(evt);
+            }
+        });
+
+        Postre3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Postre3KeyTyped(evt);
+            }
+        });
+
+        Postre4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Postre4KeyTyped(evt);
+            }
+        });
+
+        Postre5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                Postre5KeyTyped(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
         jPanel8Layout.setHorizontalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 659, Short.MAX_VALUE)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Ps1)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Ps2, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Ps3)
+                            .addComponent(Ps4)
+                            .addComponent(Ps5)
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addGap(21, 21, 21)
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel27)
+                                    .addComponent(jLabel28)
+                                    .addComponent(jLabel29)
+                                    .addComponent(jLabel30)))))
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGap(21, 21, 21)
+                        .addComponent(jLabel26)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 211, Short.MAX_VALUE)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Postre1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Postre2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Postre3, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Postre4, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Postre5, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(41, 41, 41))
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 389, Short.MAX_VALUE)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Ps1)
+                    .addComponent(Postre1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel26)
+                .addGap(20, 20, 20)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Ps2)
+                    .addComponent(Postre2, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(4, 4, 4)
+                .addComponent(jLabel27)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Ps3)
+                    .addComponent(Postre3, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(2, 2, 2)
+                .addComponent(jLabel28)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Ps4)
+                    .addComponent(Postre4, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel29)
+                .addGap(26, 26, 26)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Ps5)
+                    .addComponent(Postre5, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel30)
+                .addContainerGap(34, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Postre", jPanel8);
@@ -491,7 +1143,6 @@ public class Menuu extends javax.swing.JFrame {
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
                 .addComponent(jTabbedPane2)
                 .addContainerGap())
         );
@@ -672,6 +1323,306 @@ public class Menuu extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_hot5KeyTyped
 
+    private void P1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P1ActionPerformed
+       if (P1.isSelected()) {
+            Piz1.setEnabled(true);
+        } else {
+            Piz1.setEnabled(false);
+        }
+    }//GEN-LAST:event_P1ActionPerformed
+
+    private void P2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P2ActionPerformed
+        if (P2.isSelected()) {
+            Piz2.setEnabled(true);
+        } else {
+            Piz2.setEnabled(false);
+        }
+    }//GEN-LAST:event_P2ActionPerformed
+
+    private void P3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P3ActionPerformed
+        if (P3.isSelected()) {
+            Piz3.setEnabled(true);
+        } else {
+            Piz3.setEnabled(false);
+        }
+    }//GEN-LAST:event_P3ActionPerformed
+
+    private void P4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P4ActionPerformed
+        if (P4.isSelected()) {
+            Piz4.setEnabled(true);
+        } else {
+            Piz4.setEnabled(false);
+        }
+    }//GEN-LAST:event_P4ActionPerformed
+
+    private void P5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P5ActionPerformed
+        if (P5.isSelected()) {
+            Piz5.setEnabled(true);
+        } else {
+            Piz5.setEnabled(false);
+        }
+    }//GEN-LAST:event_P5ActionPerformed
+
+    private void Piz1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Piz1KeyTyped
+        char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Piz1KeyTyped
+
+    private void Piz2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Piz2KeyTyped
+       char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Piz2KeyTyped
+
+    private void Piz3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Piz3KeyTyped
+        char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Piz3KeyTyped
+
+    private void Piz4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Piz4KeyTyped
+        char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Piz4KeyTyped
+
+    private void Piz5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Piz5KeyTyped
+        char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Piz5KeyTyped
+
+    private void A5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_A5ActionPerformed
+        if (A5.isSelected()) {
+            Ali5.setEnabled(true);
+        } else {
+            Ali5.setEnabled(false);
+        }
+    }//GEN-LAST:event_A5ActionPerformed
+
+    private void A4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_A4ActionPerformed
+        if (A4.isSelected()) {
+            Ali4.setEnabled(true);
+        } else {
+            Ali4.setEnabled(false);
+        }
+    }//GEN-LAST:event_A4ActionPerformed
+
+    private void A3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_A3ActionPerformed
+        if (A3.isSelected()) {
+            Ali3.setEnabled(true);
+        } else {
+            Ali3.setEnabled(false);
+        }
+    }//GEN-LAST:event_A3ActionPerformed
+
+    private void A2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_A2ActionPerformed
+        if (A2.isSelected()) {
+            Ali2.setEnabled(true);
+        } else {
+            Ali2.setEnabled(false);
+        }
+    }//GEN-LAST:event_A2ActionPerformed
+
+    private void A1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_A1ActionPerformed
+        if (A1.isSelected()) {
+            Ali1.setEnabled(true);
+        } else {
+            Ali1.setEnabled(false);
+        }
+    }//GEN-LAST:event_A1ActionPerformed
+
+    private void Ali1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Ali1KeyTyped
+        char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Ali1KeyTyped
+
+    private void Ali2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Ali2KeyTyped
+        char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Ali2KeyTyped
+
+    private void Ali3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Ali3KeyTyped
+        char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Ali3KeyTyped
+
+    private void Ali4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Ali4KeyTyped
+        char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Ali4KeyTyped
+
+    private void Ali5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Ali5KeyTyped
+        char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Ali5KeyTyped
+
+    private void B1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B1ActionPerformed
+         if (B1.isSelected()) {
+            Bebi1.setEnabled(true);
+        } else {
+            Bebi1.setEnabled(false);
+        }
+    }//GEN-LAST:event_B1ActionPerformed
+
+    private void B2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B2ActionPerformed
+        if (B2.isSelected()) {
+            Bebi2.setEnabled(true);
+        } else {
+            Bebi2.setEnabled(false);
+        }
+    }//GEN-LAST:event_B2ActionPerformed
+
+    private void B3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B3ActionPerformed
+        if (B3.isSelected()) {
+            Bebi3.setEnabled(true);
+        } else {
+            Bebi3.setEnabled(false);
+        }
+    }//GEN-LAST:event_B3ActionPerformed
+
+    private void B4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B4ActionPerformed
+        if (B4.isSelected()) {
+            Bebi4.setEnabled(true);
+        } else {
+            Bebi4.setEnabled(false);
+        }
+    }//GEN-LAST:event_B4ActionPerformed
+
+    private void B5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B5ActionPerformed
+        if (B5.isSelected()) {
+            Bebi5.setEnabled(true);
+        } else {
+            Bebi5.setEnabled(false);
+        }
+    }//GEN-LAST:event_B5ActionPerformed
+
+    private void Bebi1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Bebi1KeyTyped
+        char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Bebi1KeyTyped
+
+    private void Bebi2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Bebi2KeyTyped
+        char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Bebi2KeyTyped
+
+    private void Bebi3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Bebi3KeyTyped
+        char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Bebi3KeyTyped
+
+    private void Bebi4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Bebi4KeyTyped
+        char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Bebi4KeyTyped
+
+    private void Bebi5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Bebi5KeyTyped
+       char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Bebi5KeyTyped
+
+    private void Ps1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Ps1ActionPerformed
+        if (Ps1.isSelected()) {
+            Postre1.setEnabled(true);
+        } else {
+            Postre1.setEnabled(false);
+        }
+    }//GEN-LAST:event_Ps1ActionPerformed
+
+    private void Ps2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Ps2ActionPerformed
+        if (Ps2.isSelected()) {
+            Postre2.setEnabled(true);
+        } else {
+            Postre2.setEnabled(false);
+        }
+    }//GEN-LAST:event_Ps2ActionPerformed
+
+    private void Ps3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Ps3ActionPerformed
+        if (Ps3.isSelected()) {
+            Postre3.setEnabled(true);
+        } else {
+            Postre3.setEnabled(false);
+        }
+    }//GEN-LAST:event_Ps3ActionPerformed
+
+    private void Ps4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Ps4ActionPerformed
+       if (Ps4.isSelected()) {
+            Postre4.setEnabled(true);
+        } else {
+            Postre4.setEnabled(false);
+        }
+    }//GEN-LAST:event_Ps4ActionPerformed
+
+    private void Ps5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Ps5ActionPerformed
+        if (Ps5.isSelected()) {
+            Postre5.setEnabled(true);
+        } else {
+            Postre5.setEnabled(false);
+        }
+    }//GEN-LAST:event_Ps5ActionPerformed
+
+    private void Postre1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Postre1KeyTyped
+       char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Postre1KeyTyped
+
+    private void Postre2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Postre2KeyTyped
+        char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Postre2KeyTyped
+
+    private void Postre3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Postre3KeyTyped
+        char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Postre3KeyTyped
+
+    private void Postre4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Postre4KeyTyped
+        char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Postre4KeyTyped
+
+    private void Postre5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Postre5KeyTyped
+        char c = evt.getKeyChar();
+        if (!Character.isDigit(c)) {
+            evt.consume();
+        }
+    }//GEN-LAST:event_Postre5KeyTyped
+
     /**
      * @param args the command line arguments
      */
@@ -709,11 +1660,51 @@ public class Menuu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JCheckBox A1;
+    private javax.swing.JCheckBox A2;
+    private javax.swing.JCheckBox A3;
+    private javax.swing.JCheckBox A4;
+    private javax.swing.JCheckBox A5;
+    private javax.swing.JTextField Ali1;
+    private javax.swing.JTextField Ali2;
+    private javax.swing.JTextField Ali3;
+    private javax.swing.JTextField Ali4;
+    private javax.swing.JTextField Ali5;
+    private javax.swing.JCheckBox B1;
+    private javax.swing.JCheckBox B2;
+    private javax.swing.JCheckBox B3;
+    private javax.swing.JCheckBox B4;
+    private javax.swing.JCheckBox B5;
+    private javax.swing.JTextField Bebi1;
+    private javax.swing.JTextField Bebi2;
+    private javax.swing.JTextField Bebi3;
+    private javax.swing.JTextField Bebi4;
+    private javax.swing.JTextField Bebi5;
     private javax.swing.JTextField Hambur1;
     private javax.swing.JTextField Hambur2;
     private javax.swing.JTextField Hambur3;
     private javax.swing.JTextField Hambur4;
     private javax.swing.JTextField Hambur5;
+    private javax.swing.JCheckBox P1;
+    private javax.swing.JCheckBox P2;
+    private javax.swing.JCheckBox P3;
+    private javax.swing.JCheckBox P4;
+    private javax.swing.JCheckBox P5;
+    private javax.swing.JTextField Piz1;
+    private javax.swing.JTextField Piz2;
+    private javax.swing.JTextField Piz3;
+    private javax.swing.JTextField Piz4;
+    private javax.swing.JTextField Piz5;
+    private javax.swing.JTextField Postre1;
+    private javax.swing.JTextField Postre2;
+    private javax.swing.JTextField Postre3;
+    private javax.swing.JTextField Postre4;
+    private javax.swing.JTextField Postre5;
+    private javax.swing.JCheckBox Ps1;
+    private javax.swing.JCheckBox Ps2;
+    private javax.swing.JCheckBox Ps3;
+    private javax.swing.JCheckBox Ps4;
+    private javax.swing.JCheckBox Ps5;
     private javax.swing.JCheckBox h1;
     private javax.swing.JCheckBox h2;
     private javax.swing.JCheckBox h3;
@@ -731,8 +1722,28 @@ public class Menuu extends javax.swing.JFrame {
     private javax.swing.JTextField hot5;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
